@@ -1,0 +1,123 @@
+@media screen{
+*{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.03em;
+}
+
+b{ 
+	color: #ed145b;
+}
+
+body{
+	background-image:url(file:///C:/Users/VILHENA/HealthTrack/CSS/images/2.png);        
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.purple-gradient{
+    background-image: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+
+header{
+	background-color: #e9ecef;
+	text-align:center;
+	height: 80px;
+}
+
+.logo{
+	max-height: 80px;
+	max-width: auto;
+	margin-top: 0px;
+}
+#editor{
+	max-height: 16px;
+	max-width: 16px;	
+}
+.media{
+	margin-top: 10%;
+	border: 2px solid white;
+	background-color: #e5e5e5;
+	opacity: 1;
+	padding: 10px;
+}
+
+.form-group{
+	padding-left: 0px;
+}
+
+img{
+	border-radius: 50%;
+	max-width: 64px;
+	max-height: 64px;
+}
+
+footer{
+	position: relative;
+	color: #E5E5E5;
+	size: 20px;
+	margin-bottom: 0px;
+	margin-right: 2px;
+}
+
+@media screen and (max-width: 768px){
+	*{
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.03em;
+	}
+	
+	b{ 
+		color: #ed145b;
+	}
+	
+	body{
+		background-image:url(file:///C:/Users/VILHENA/HealthTrack/CSS/images/2.png);        
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+	}
+	
+	.purple-gradient{
+		background-image: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+	}
+	
+	header{
+		background-color: #e9ecef;
+		text-align:center;
+		height: 80px;
+	}
+	
+	.logo{
+		max-height: 80px;
+		max-width: auto;
+		margin-top: 0px;
+	}
+	#editor{
+		max-height: 16px;
+		max-width: 16px;	
+	}
+	.media{
+		margin-top: 25%;
+		border: 2px solid white;
+		background-color: #e5e5e5;
+		opacity: 1;
+		min-width: 70%;
+		padding: 5px;
+	}
+	
+	img{
+		border-radius: 50%;
+		max-width: 64px;
+		max-height: 64px;
+	}
+	
+	footer{
+		position: relative;
+		color: #E5E5E5;
+		size: 20px;
+		margin-bottom: 0px;
+		margin-right: 2px;
+	}
+	
+}
+}

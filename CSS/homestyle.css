@@ -1,0 +1,67 @@
+*{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.03em;
+}
+
+b{ 
+	color: #ed145b;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('file:///C:/Users/VILHENA/HealthTrack/CSS/images/2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+
+
+.purple-gradient{
+    background-image: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+
+
+header{
+	background-color: #e9ecef;
+	text-align:center;
+	height: 80px;
+}
+
+.logo{
+	max-height: 80px;
+	max-width: auto;
+	margin-top: 0px;
+}
+
+.jumbotron{
+	margin-top: 15%;
+	float: left;
+	background-image: linear-gradient(to right top, #fff 90%,#ed145b);
+	width: 70%;
+	height: auto;
+	margin-left: 10%;
+}
+
+.lead img{ 
+	width: auto;
+	height: auto;
+	max-height: 150px;
+	max-width: 150px;
+	margin-right: 8px;
+	align-content: center;
+}
+
+footer{
+	position: relative;
+	color: #E5E5E5;
+	size: 20px;
+	margin-bottom: 0px;
+	margin-right: 2px;
+}
+

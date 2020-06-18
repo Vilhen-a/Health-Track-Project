@@ -1,0 +1,129 @@
+*{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.03em;
+}
+
+b{ 
+	color: black;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('file:///C:/Users/VILHENA/HealthTrack/CSS/images/2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+
+.purple-gradient{
+    background-image: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+
+
+.logo{
+	max-height: 80px;
+	max-width: auto;
+	margin-top: 0px;
+}
+
+.container-fluid{
+    position: relative;
+    margin-top: 10%;
+}
+
+.list-group-item:hover{
+    color: #e5e5e5;
+    background-color: white;
+    opacity: 0.8;       
+}
+
+.badge-primary{
+    background-color: #ed145b;
+}
+
+span{
+    font-style: italic;
+    color: black;
+}
+
+footer{
+	position: absolute;
+	color: #E5E5E5;
+	size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+}
+
+@media screen and (max-width: 768px){
+    *{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.03em;
+    }
+    
+    b{ 
+        color: black;
+    }
+    
+    #background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('file:///C:/Users/VILHENA/HealthTrack/CSS/images/2.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 0.8;
+        filter:alpha(opacity=80);
+    }
+
+    .purple-gradient{
+        background-image: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+    }
+    
+    
+    .logo{
+        max-height: 80px;
+        max-width: auto;
+        margin-top: 0px;
+    }
+    
+    .container-fluid{
+        position: relative;
+        margin-top: 20%;
+    }
+    
+    .list-group-item:hover{
+        color: #e5e5e5;
+        background-color: white;
+        opacity: 0.8;       
+    }
+    
+    .badge-primary{
+        background-color: #ed145b;
+    }
+    
+    span{
+        font-style: italic;
+        color: black;
+        display: none;
+    }
+    
+    footer{
+        position: absolute;
+        color: #E5E5E5;
+        size: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 3px;
+        display: none;
+    }
+    
+
+}
